@@ -1,7 +1,7 @@
 ## Take Home - Full Stack
 
 You are to build a visualization for a build system. Build systems are essentially DAGs - directred acyclic graphs.
-Below is an example DAG. Note that parent to child relationships are many-to-many. Only cycles are not possible.
+Below is an example DAG. Note that parent to child relationships are many-to-many. Cycles are not possible.
 
 ```mermaid
 graph LR
