@@ -43,4 +43,5 @@ graph LR
    - use HTMX & Alpine to build an interactive site. 
    - mock any api calls you need to - use flask + python to serve dummy data on a port.
    - tailwind or any component library that you are familiar with is okay to use.
+   - NOTE: This is not the stack we use / intend to use at zipline.ai
 2. Your ability to build software that is both simple and capable.
