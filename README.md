@@ -14,7 +14,7 @@ graph LR
 ```
 
 A node has the following information within it: 
-- `node_type`, one a 4 fixed types `TYPE_1`, `TYPE_2`, `TYPE_3`, `TYPE_4`
+- `node_type`, one of 4 fixed types `TYPE_1`, `TYPE_2`, `TYPE_3`, `TYPE_4`
 - `node_name` (unique and what is to be displayed in the graph) `A`, `B`, `C`, `D`, `E`, `F` etc
 - `tags` a map of string to string 
 
