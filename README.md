@@ -13,12 +13,12 @@ graph LR
     D --> F
 ```
 
-In our graph each node represents 
 A node has the following information within it: 
 - `node_type`, one a 4 fixed types `TYPE_1`, `TYPE_2`, `TYPE_3`, `TYPE_4`
 - `node_name` (unique and what is to be displayed in the graph) `A`, `B`, `C`, `D`, `E`, `F` etc
 - `tags` a map of string to string 
 
+## Problem
 
 You are to build an application which can do the following
 1. auto-complete search for nodes by node_name
@@ -40,4 +40,4 @@ graph LR
    - use HTMX & Alpine to build an interactive site. 
    - mock any api calls you need to - use flask + python to serve dummy data on a port.
    - tailwind or any component library that you are familiar with is okay to use.
-2. Focus in building software that is both simple and capable.
+2. Your ability to build software that is both simple and capable.
