@@ -11,11 +11,14 @@ graph LR
     B --> F
     D --> E
     D --> F
+    E --> H
+    G --> H
+    H --> I
 ```
 
 A node has the following information within it: 
 - `node_type`, one of 4 fixed types `TYPE_1`, `TYPE_2`, `TYPE_3`, `TYPE_4`
-- `node_name` (unique and what is to be displayed in the graph) `A`, `B`, `C`, `D`, `E`, `F` etc
+- `node_name` (unique and what is to be displayed in the graph) `A`, `B`, `C` etc
 - `tags` a map of string to string 
 
 ## Problem
@@ -32,7 +35,7 @@ graph LR
     D --> E
 ```
 3. upon clicking the node in the graph, create a side bar on RHS and show the node information on the sidebar
-
+4. BONUS - take an additional argument, # of levels, which limits the depth of the graph.
 
 
 ## We are looking for 
