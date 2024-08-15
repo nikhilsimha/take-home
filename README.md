@@ -37,6 +37,8 @@ graph LR
 3. upon clicking the node in the graph, create a side bar on RHS and show the node information on the sidebar
 4. BONUS - take an additional argument, # of levels, which limits the depth of the graph.
 
+## Output
+A github repo containing access to your solution, with instructions to run it locally.
 
 ## We are looking for 
 1. Your ability to learn and apply unfamiliar technologies quickly.
@@ -45,3 +47,4 @@ graph LR
    - tailwind or any component library that you are familiar with is okay to use.
    - NOTE: This is not the stack we use / intend to use at zipline.ai
 2. Your ability to build software that is both simple and capable.
+
