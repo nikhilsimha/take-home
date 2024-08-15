@@ -37,6 +37,8 @@ graph LR
 3. upon clicking the node in the graph, create a side bar on RHS and show the node information on the sidebar
 4. BONUS - take an additional argument, # of levels, which limits the depth of the graph.
 
+> NOTE: Don't worry about the design of the application. We are more concerned that the behavior is correct. 
+
 ## We are looking for 
 1. Your ability to learn and apply unfamiliar technologies quickly.
    - use HTMX (& optionally Alpine js) to build an interactive site. 
